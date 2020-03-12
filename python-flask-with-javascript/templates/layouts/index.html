@@ -1,0 +1,60 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>RecipeGUI</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>  
+  <script src="static\js\script.js"></script>
+</head>
+<body>
+  <div class="header">
+    <h1 style="background-color:black; color:white; text-align:center; padding : 2%">Ingredient Recommendation System for Great Recipes</h1>
+  </div>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="row">
+				<div class="col-md-6" style="padding-left:5%">
+					<h2>
+						Enter Ingredients
+					</h2>
+          <input list="allIngr" type="text" id="searchBar">
+          <datalist id="allIngr"></datalist>
+          <button type="button" id="add-ingr" class="btn btn-dark" style="padding-left:5%; padding-right:5%">Add</button>
+				</div>
+
+				<div class="col-md-6">
+					<h2>
+						Try these 3 ingredients
+            <button type="button" id="surprise-button" class="btn btn-primary" style="padding-left:5%; padding-right:5%">Surprise Me!</button>
+					</h2>
+          <ul class="list-group" id="try-ingrList">
+          </ul>
+				</div>
+			</div>
+		</div>
+	</div>
+  <div class="row">
+		<div class="col-md-12">
+      <div class="row">
+				<div class="col-md-6" style="padding-left:5%">
+					<h2>
+						Your Recipe &hearts;
+					</h2>
+          <ul class="list-group" id="final-recipe">
+          </ul>
+          <button type="button" id="recommed-button" class="btn btn-primary">Recommend</button>
+        </div>
+        <div class="col-md-6">
+          <h2>
+						Evaluation Score
+					</h2>
+          <input type="text" id="eval_score" name="eval_score">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</<body>
