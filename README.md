@@ -13,3 +13,5 @@ Avg Precision and Average Reciprocal Hit Rate
 
 Data Mining Project by
 Gaurav Karki, Mega Putra, Mayank Verma
+
+Advised by Prof. David Anastasiu
